@@ -1,0 +1,44 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-form .error-message {
+    color: red;
+    margin: 1em 0;
+}
+
+.login-form h2 {
+    margin-bottom: 1rem;
+}
+
+.login-form form {
+    display: grid;
+    width: 500px;
+    gap: 1em;
+}
+
+.login-form form .input-container {
+    display: grid;
+    gap: .5em;
+}
+
+.login-form form .input-container input {
+    padding: .75em 1em;
+    border-radius: 8px;
+    border: 1px solid #333;
+    outline: none;
+}
+
+.login-form form button {
+    padding: .5em 1em;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
